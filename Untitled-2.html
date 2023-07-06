@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Cute Introduction Page</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="icon" type=Desktop/homeless/stars.ico href=C:/Users/Administrator/Desktop/homeless/stars.ico>
+  <link rel="stylesheet" href="file:///C:/Users/Administrator/Desktop/homeless/bodyy.css">
+
+  <style>
+   
+  </style>
+  <body class="light-mode">  <i class="bi bi-brightness-alt-high-fill">
+
+ 
+  <nav class="navbar navbar-expand-lg navbar-dark #362b55">
+    <a class="navbar-brand" href="#">presentation</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="bi bi-brightness-alt-high" 
+    aria-controls="bi bi-brightness-alt-high" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="">  
+    </button>
+    <div class="collapse navbar-collapse" id="bi bi-brightness-alt-high">
+      <ul class="navbar-nav ml-auto"> 
+          <div class="mode-switch" onclick="toggleMode()"></div>
+      </ul>
+    </div>
+  </nav>
+  <script>
+    var darkMode = localStorage.getItem('darkMode');
+
+    if (darkMode === 'true') {
+      enableDarkMode();
+    }
+
+    function toggleMode() {
+      darkMode = localStorage.getItem('darkMode');
+      if (darkMode === 'true') {
+        disableDarkMode();
+      } else {
+        enableDarkMode();
+      }
+    }
+
+    function enableDarkMode() {
+      document.body.classList.remove('light-mode');
+      document.body.classList.add('dark-mode');
+      localStorage.setItem('darkMode', 'true');
+    }
+
+    function disableDarkMode() {
+      document.body.classList.remove('dark-mode');
+      document.body.classList.add('light-mode');
+      localStorage.setItem('darkMode', 'false');
+    }
+  </script>
+
+  <div class="container">
+    <h1> there's no stars shining without dark </h1>
+    <div class="intro-block">
+      <p class="intro-text">Here my name is Zineb. I am making this page to introduce myself
+        <br> i'm still up to improve myself, and well i lost my ideas about what should i write next </br>
+        <br> but hey i'm sharing some of my works and i'll put here the most important that i'm pretty sure they're
+        important to be helpful
+        <br> i'm 18 now.. up to be 19 in the next month,
+      </p>
+      <p class="intro-date">Started: 2023-06-30</p>
+    </div>
+    <img src="Layer.png" alt="moonlight night">
+  </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-5">
+      <div class="block">
+        <h2>it's all about the beginning </h2>
+        <p>the drawings the books i used to read how i menaged to start degital drawing ect</p>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+  <div class="row">
+    <div class="col-md-5">
+      <div class="block">
+        <h2>little did you know</h2>
+        <p>that's the first web site i'm making and since i ran out of ideas i'm making it as an biography ♥ 
+          <br> 
+        i think i'll be up to make more in the future, so hi i'm zineb .. i'm an artist and i've got interests toward</p>
+      </div>
+    </div>
+   
+  </div>
+  </div>
+ 
+  </body>
+  
+</html>

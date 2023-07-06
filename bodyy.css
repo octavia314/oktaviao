@@ -1,0 +1,123 @@
+body {
+    background-image: url(2e5bfeee5351b58f0a0fa7b28fc43738.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .container {
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .dark-mode {
+    background: url(C:/Users/Administrator/Desktop/homeless/2e5bfeee5351b58f0a0fa7b28fc43738.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: #483394;
+    
+
+  }
+
+  .light-mode {
+    background: url(C:/Users/Administrator/Desktop/homeless/2f10ce69b96c0611989308b0abc68e70.gif) no-repeat center center fixed;
+    background-size: cover;
+    color: #000;}
+    
+  .block {
+    background-color: #4a4f7e;
+    border-radius: 20px;
+    padding: 20px;
+    width: 200%;
+    text-align: center;
+    margin: 150px;
+    }
+
+  .dark-mode .btn {
+    background-color: #555;
+    color: #fff;
+  }
+
+  .dark-mode .btn:hover {
+    background-color: #777;
+    color: #fff;
+  }
+
+  .dark-mode .navbar {
+    background-color: #222;
+    color: #fff;
+  }
+
+  .dark-mode .card {
+    background-color: #444;
+    color: #fff;
+  
+
+
+  }
+
+  .mode-switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+    background-color: #ddd;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+
+
+  h1 {
+    font-family: 'monospace', cursive, sans-serif;
+    font-size: 30px;
+    color: #f1f38d;
+    margin-bottom: 30px;
+  }
+
+  p {
+    font-family: ui-monospace, sans-serif;
+    font-size: 18px;
+    color: #3A45F2;
+    margin-bottom: 30px;
+  }
+
+  .intro-block {
+    background-color: #9d7faf;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+  }
+
+  .intro-text {
+    font-family: ui-monospace, sans-serif;
+    font-size: 16px;
+    color: #1f268d;
+    margin-bottom: 20px;
+  }
+  .block {
+    background-color: #362b55;
+    border-radius: 20px;
+    padding: 20px;
+    width: 200%;
+    text-align: center;
+    margin: 150px;
+    }
+
+  .intro-date {
+    font-family: ui-monospace, sans-serif;
+    font-size: 14px;
+    color: #3A45F2;}
+   
+
+  .mode-switch:before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 21px;
+    height: 21px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: transform 0.3s;
+  }
